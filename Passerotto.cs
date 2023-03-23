@@ -1,4 +1,8 @@
-﻿public class Passerotto : Animale
+﻿using esercizio1;
+using esercizio2;
+
+
+public class Passerotto : Animale /*, IVolare*/
 {
     public void Verso()
     {

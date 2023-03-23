@@ -1,7 +1,24 @@
-﻿public abstract class Animale
+﻿namespace esercizio1
 {
-    public void Dormi()
+    public abstract class Animale
     {
-        Console.WriteLine("Zzz");
+        public void Dormi()
+        {
+            Console.WriteLine("Zzzzz...");
+        }
+    }
+}
+
+
+namespace esercizio2
+{
+    public interface IVolare
+    {
+        public void Vola();
+    }
+
+    public interface INuotare
+    {
+        public void Nuota();
     }
 }

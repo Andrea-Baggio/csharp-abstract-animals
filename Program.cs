@@ -1,3 +1,8 @@
-﻿Cane doggo = new Cane();
+﻿Cane pluto = new Cane();
+pluto.Verso();
 
-Console.WriteLine(doggo.Verso);
+Passerotto Cip = new Passerotto();
+pluto.Mangia();
+
+Delfino Flipper = new Delfino();
+pluto.Dormi();

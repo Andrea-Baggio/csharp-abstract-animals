@@ -1,4 +1,7 @@
-﻿public class Delfino : Animale
+﻿using esercizio1;
+using esercizio2;
+
+public class Delfino : Animale
 {
     public void Verso()
     {

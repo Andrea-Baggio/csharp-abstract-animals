@@ -1,4 +1,6 @@
-﻿public class Cane : Animale
+﻿using esercizio1;
+
+public class Cane : Animale
 {
     public void Verso()
     {
