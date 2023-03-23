@@ -1,7 +1,7 @@
 ﻿using esercizio1;
 using esercizio2;
 
-public class Delfino : Animale
+public class Delfino : Animale, INuotare
 {
     public void Verso()
     {
@@ -11,5 +11,10 @@ public class Delfino : Animale
     public void Mangia()
     {
         Console.WriteLine("Pesce");
+    }
+
+    public void Nuota()
+    {
+        Console.WriteLine("Sto nuotando!");
     }
 }

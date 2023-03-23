@@ -2,7 +2,7 @@
 using esercizio2;
 
 
-public class Passerotto : Animale /*, IVolare*/
+public class Passerotto : Animale, IVolare
 {
     public void Verso()
     {
@@ -12,5 +12,10 @@ public class Passerotto : Animale /*, IVolare*/
     public void Mangia()
     {
         Console.WriteLine("Vermi");
+    }
+
+    public void Vola()
+    {
+        Console.WriteLine("Sto volando!");
     }
 }

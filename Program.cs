@@ -2,7 +2,12 @@
 pluto.Verso();
 
 Passerotto Cip = new Passerotto();
-pluto.Mangia();
+Cip.Mangia();
 
 Delfino Flipper = new Delfino();
-pluto.Dormi();
+Flipper.Dormi();
+
+/**************************************************************/
+
+Passerotto Piu = new Passerotto();
+Piu.Vola();

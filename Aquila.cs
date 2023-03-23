@@ -2,7 +2,7 @@
 using esercizio2;
 
 
-public class Aquila : Animale
+public class Aquila : Animale, IVolare
 {
     public void Verso()
     {
@@ -12,5 +12,9 @@ public class Aquila : Animale
     public void Mangia()
     {
         Console.WriteLine("Conigli");
+    }
+    public void Vola()
+    {
+        Console.WriteLine("Sto volando!");
     }
 }
